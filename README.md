@@ -11,6 +11,7 @@ A [list of resources](git-resources.csv) for learning Git.
 ## License
 
 The resources listed in [git-resources.csv](git-resources.csv) use their own specific licenses.
+
 Please see the `license` column in [git-resources.csv](git-resources.csv) for details. 
 
 
