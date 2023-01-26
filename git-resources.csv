@@ -1,0 +1,22 @@
+authors,year,title,link,source,license,category
+Miles McBain,2019,Git for Scientists,https://milesmcbain.github.io/git_4_sci/,https://github.com/MilesMcBain/git_4_sci,CC BY-SA 4.0,course
+John D. Blischak et al.,2016,A Quick Introduction to Version Control with Git and GitHub,https://doi.org/10.1371/journal.pcbi.1004668,PLoS Comput Biol 12(1): e1004668,CC BY 4.0,paper
+Michael C. Frank et al.,2023,Experimentology - An Open Science Approach to Experimental Psychology Methods (Appendix A),https://experimentology.io/A-git,https://github.com/langcog/experimentology,MIT,guide
+Michael C. Frank et al.,2023,"Experimentology - An Open Science Approach to Experimental Psychology Methods (Chapter 13 on ""Project Management"")",https://experimentology.io/13-management,https://github.com/langcog/experimentology,MIT,guide
+The Carpentries,2019,Version Control with Git,https://swcarpentry.github.io/git-novice/,https://github.com/swcarpentry/git-novice/,CC BY 4.0,guide
+Alice Bartlett,2016,Git for Humans,https://speakerdeck.com/alicebartlett/git-for-humans,,,slides
+Kirstie Whitaker,2016,A Friendly Github Intro Workshop,https://kirstiejane.github.io/friendly-github-intro/#resources,https://github.com/KirstieJane/friendly-github-intro,CC BY 4.0,workshop
+Katie Sylor-Miller,2021,"Oh Shit, Git!?!",https://ohshitgit.com/,https://github.com/ksylor/ohshitgit,,website
+Scott Chacon & Ben Straub,2014,Pro Git (2nd edition),https://git-scm.com/book/en/v2,,CC BY-NC-SA 3.0,book
+cbeams,2014,How to Write a Git Commit Message,https://cbea.ms/git-commit/,,,article
+GitHub Team,2023,Removing sensitive data from a repository,https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository,https://github.com/github/docs,CC BY 4.0,article
+Grant McDermott,2021,Data Science for Economists - Lecture 2: Version control with Git(Hub),https://raw.githack.com/uo-ec607/lectures/master/02-git/02-Git.html,https://github.com/uo-ec607/lectures/,MIT,slides
+Jennifer Bryan et al.,2021,Happy Git and GitHub for the useR,https://happygitwithr.com/,https://github.com/jennybc/happy-git-with-r,CC BY-NC 4.0,book
+CodeRefinery,2022,Introduction to version control with Git,https://coderefinery.github.io/2022-09-20-workshop/schedule/,https://github.com/coderefinery/git-intro,CC BY 4.0,workshop
+CodeRefinery,2022,Collaborative distributed version control,https://coderefinery.github.io/git-collaborative/,https://github.com/coderefinery/git-collaborative,CC BY 4.0,workshop
+Atlassian,,Become a git guru,https://www.atlassian.com/git/tutorials,,CC BY 2.5 AU,guide
+Imperial College research Computing Service,2022,"Using Git to Code, Collaborate and Share",https://imperialcollegelondon.github.io/grad_school_git_course/,https://github.com/ImperialCollegeLondon/grad_school_git_course,CC BY 4.0,guide
+The Turing Way Community,2021,The Turing Way - Chapter on Version Control,https://the-turing-way.netlify.app/reproducible-research/vcs.html,https://github.com/alan-turing-institute/the-turing-way,CC BY 4.0,guide
+The Missing Semester Team,2020,The Missing Semester of Your CS Education - Chapter on Version Control,https://missing.csail.mit.edu/2020/version-control/,https://github.com/missing-semester/missing-semester/blob/master/_2020/version-control.md,CC BY-NC-SA 4.0,guide
+Anna Krystalli,2021,Reproducible Research Data and Project Management in R - Chapter on Version Control with Git,https://annakrystalli.me/rrresearchACCE20/version-control-with-git.html?utm_source=substack&utm_medium=email,https://github.com/annakrystalli/rrresearchACCE20,CC BY 4.0,guide
+Jeff Olson,2020,How to Teach Git Commits & GitHub to Teenagers,https://medium.com/upperlinecode/how-to-teach-git-commits-github-to-teenagers-a3f740b2f500,,,article
