@@ -1,0 +1,83 @@
+---
+title: "git-resources"
+author: "Lennart Wittkuhn"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    page-layout: full
+    code-fold: true
+    code-summary: "Show the code"
+    link-external-newwindow: true
+---
+
+
+This website lists resources to learn version control of digital objects using [Git](https://git-scm.com/) and [DataLad](https://www.datalad.org/).
+The source repository can be found [on GitHub](https://github.com/lnnrtwttkhn/git-resources).
+
+::: {.callout-tip}
+## This website is under continous development! 🏗 🚧 👷‍♂️
+If you notice any errors or have suggestions for improvements, please either [open an issue](https://github.com/lnnrtwttkhn/git-resources/issues) or contact [Lennart Wittkuhn](mailto:lennart.wittkuhn@uni-hamburg.de).
+You can also review the data and all of the source code in [this GitHub repository](https://github.com/lnnrtwttkhn/git-resources).
+Thank you!
+:::
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(here)
+library(magrittr)
+library(data.table)
+library(DT)
+```
+
+```{r}
+create_link_text = function(link, text) {
+  link_text = sprintf("<a href='%s' target='_blank'>%s</a>", link, text)
+}
+```
+
+```{r}
+create_html_table = function(dt) {
+  DT::datatable(
+    dt,
+    class = "cell-border stripe", rownames = FALSE, escape = FALSE,
+    options = list(
+      scrollX = TRUE,
+      pageLength = 5,
+      lengthMenu = c(5, 10, 15, 20)
+    ),
+  )
+}
+```
+
+```{r}
+load_data = function(path) {
+  data = data.table::rbindlist(lapply(path, data.table::fread))
+}
+```
+
+```{r}
+create_table = function(dt_in) {
+  dt_out = dt_in %>%
+    .[, link := create_link_text(link = link, text = "Link")] %>%
+    .[, source := create_link_text(link = source, text = "Source")] %>%
+    setorder(., category, -year)
+}
+```
+
+# Git
+
+```{r}
+dt_git = load_data(Sys.glob(here::here("git-resources.csv")))
+dt_git_show = create_table(dt_git)
+create_html_table(dt_git_show)
+```
+
+# DataLad
+
+```{r}
+dt_git = load_data(Sys.glob(here::here("datalad-resources.csv")))
+dt_git_show = create_table(dt_git)
+create_html_table(dt_git_show)
+```
