@@ -1,5 +1,7 @@
 # Git Resources
 
+[![Quarto Publish](https://github.com/lnnrtwttkhn/git-resources/actions/workflows/publish.yml/badge.svg)](https://github.com/lnnrtwttkhn/git-resources/actions/workflows/publish.yml)
+
 ## About
 
 A [list of resources](git-resources.csv) for learning Git.
